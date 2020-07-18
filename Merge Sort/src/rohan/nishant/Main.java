@@ -12,17 +12,16 @@ public class Main {
         }
     }
     private static void merge(ArrayList<Integer> arr, int start, int mid, int end) {
-        int leftStartingIndex = mid - start + 1;
-        int rightStartingIndex = end - mid;
-        int[] leftArray = new int[leftStartingIndex];
-        int[] rightArray = new int [rightStartingIndex];
-        for (int i=0; i<leftStartingIndex; ++i)
+        int leftArrayLength = mid - start + 1;
+        int rightArrayLength = end - mid;
+        int[] leftArray = new int[leftArrayLength];
+        int[] rightArray = new int[rightArrayLength];
+        for (int i = 0; i < leftArrayLength; ++i)
             leftArray[i] = arr.get(start + i);
-        for (int j=0; j<rightStartingIndex; ++j)
-            rightArray[j] = arr.get(mid + 1 + j);
-        int i = 0, j = 0;
-        int k = start;
-        while (i<leftStartingIndex&&j<rightStartingIndex) {
+        for (int i = 0; i < rightArrayLength; ++i)
+            rightArray[i] = arr.get(mid + 1 + i);
+        int i = 0, j = 0, k = start;
+        while (i < leftArrayLength && j < rightArrayLength) {
             if (leftArray[i] <= rightArray[j]) {
                 arr.set(k, leftArray[i]);
                 i++;
@@ -32,12 +31,12 @@ public class Main {
             }
             k++;
         }
-        while (i<leftStartingIndex) {
+        while (i < leftArrayLength) {
             arr.set(k, leftArray[i]);
             i++;
             k++;
         }
-        while (j<rightStartingIndex) {
+        while (j < rightArrayLength) {
             arr.set(k, rightArray[j]);
             j++;
             k++;
@@ -53,7 +52,7 @@ public class Main {
         for (int i = 0; i < n; ++i)
             System.out.print(arr.get(i) + "\t");
         System.out.println();
-        mergeSort(arr, 0, n-1);
+        mergeSort(arr, 0, n - 1);
         for (int i = 0; i < n; ++i)
             System.out.print(arr.get(i) + "\t");
     }
