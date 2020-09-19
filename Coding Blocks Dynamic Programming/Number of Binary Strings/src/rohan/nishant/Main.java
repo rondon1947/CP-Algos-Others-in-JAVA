@@ -43,14 +43,15 @@ public class Main {
             dpBottomUp[1][0] = 2;
             dpBottomUp[1][1] = 1;
             System.out.println(binaryStringsBottomUp(dpBottomUp, n - 1));
+            System.out.println(binaryStringsFibonacci(n));
             t--;
         }
     }
 
     private static int binaryStringsBottomUp(int[][] dpBottomUp, int n) {
         for (int i = 2; i <= n; ++i) {
-            dpBottomUp[i][0] = dpBottomUp[i-1][0] + dpBottomUp[i-1][1];
-            dpBottomUp[i][1] = dpBottomUp[i-1][0];
+            dpBottomUp[i][0] = dpBottomUp[i - 1][0] + dpBottomUp[i - 1][1];
+            dpBottomUp[i][1] = dpBottomUp[i - 1][0];
         }
         return dpBottomUp[n][0] + dpBottomUp[n][1];
     }
@@ -66,5 +67,13 @@ public class Main {
             return binaryStringsTopDown(n - 1, 0);
     }
 
-    private static 
+    private static long binaryStringsFibonacci(long n) {
+        long a = 1, b = 1;
+        for (long i = 1; i < n; i++) {
+            long temp = a;
+            a = a + b;
+            b = temp;
+        }
+        return (a + b);
+    }
 }
