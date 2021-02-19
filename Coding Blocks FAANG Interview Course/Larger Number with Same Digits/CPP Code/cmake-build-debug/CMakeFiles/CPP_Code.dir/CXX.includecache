@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks FAANG Interview Course/Larger Number with Same Digits/CPP Code/main.cpp
+bits/stdc++.h
+-
+

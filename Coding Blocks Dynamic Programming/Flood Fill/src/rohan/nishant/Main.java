@@ -42,18 +42,46 @@ then perform recoloring into colors 2,3,5,4 in that order.
 
 package rohan.nishant;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
-
     public static void main(String[] args) {
-	    Scanner sc = new Scanner(System.in);
-	    int n = sc.nextInt();
-	    int[] arr = new int[n];
-	    System.out.println(floodFill(arr, n));
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int[] arr = new int[n];
+        int c = 0;
+        for (int i = 0; i < n; i++) {
+            int temp;
+            temp = s.nextInt();
+            if (c == 0)
+                arr[c++] = temp;
+            else if (arr[c - 1] != temp)
+                arr[c++] = temp;
+        }
+        n = c;
+        int[][] dpArray = new int[5001][5001];
+        for (int i = 0; i < 5001; i++)
+            for (int j = 0; j < 5001; j++)
+                dpArray[i][j] = -1;
+        int ans = floodFill(arr, 0, n - 1, dpArray);
+        System.out.println(ans);
     }
 
-    private static int floodFill(int[] arr, int n) {
-
+    public static int floodFill(int[] arr, int l, int r, int[][] dpArray) {
+        if (l >= r)
+            return dpArray[l][r] = 0;
+        if (dpArray[l][r] != -1)
+            return dpArray[l][r];
+        if (arr[l] == arr[r]) {
+            int ans = floodFill(arr, l + 1, r - 1, dpArray) + 1;
+            dpArray[l][r] = ans;
+            return ans;
+        }
+        if (arr[l] != arr[r]) {
+            int a = floodFill(arr, l + 1, r, dpArray) + 1;
+            int b = floodFill(arr, l, r - 1, dpArray) + 1;
+            dpArray[l][r] = Math.min(a, b);
+        }
+        return dpArray[l][r];
     }
 }

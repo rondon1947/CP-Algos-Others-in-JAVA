@@ -28,9 +28,32 @@ Explanation
 
 package rohan.nishant;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	    
+        Scanner sc = new Scanner(System.in);
+        int t = Integer.parseInt(sc.nextLine());
+        for (int j = 1; j <= t; ++j) {
+            String s = sc.nextLine();
+            int n = s.length();
+            long[] dpArray = new long[n + 1];
+            dpArray[0] = 1;
+            dpArray[1] = isValid(s.charAt(0) - '0');
+            for (int i = 2; i <= s.length(); i++) {
+                if (s.charAt(i - 2) == '0') {
+                    dpArray[i] = isValid(s.charAt(i - 1) - '0') * (dpArray[i - 1]);
+                } else {
+                    dpArray[i] = (isValid(s.charAt(i - 1) - '0') * dpArray[i - 1])
+                            + (isValid((((s.charAt(i - 2) - '0') * 10 + (s.charAt(i - 1) - '0')))) * dpArray[i - 2]);
+                }
+            }
+            System.out.println(dpArray[n]);
+        }
+    }
+
+    private static int isValid(int i) {
+        return (i >= 1 && i <= 26)?1:0;
     }
 }

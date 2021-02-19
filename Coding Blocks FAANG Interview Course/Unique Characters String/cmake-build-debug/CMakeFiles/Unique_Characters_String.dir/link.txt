@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Unique_Characters_String.dir/main.cpp.o  -o Unique_Characters_String.exe -Wl,--out-implib,libUnique_Characters_String.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
