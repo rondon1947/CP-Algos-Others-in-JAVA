@@ -1,8 +1,8 @@
-# Install script for directory: /cygdrive/d/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks FAANG Interview Course/Unique Characters String
+# Install script for directory: D:/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks FAANG Interview Course/Unique Characters String
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Unique_Characters_String")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/d/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks FAANG Interview Course/Unique Characters String/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks FAANG Interview Course/Unique Characters String/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

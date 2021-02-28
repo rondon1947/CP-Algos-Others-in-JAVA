@@ -1,1 +1,3 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Unique_Characters_String.dir/main.cpp.o  -o Unique_Characters_String.exe -Wl,--out-implib,libUnique_Characters_String.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Unique_Characters_String.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Unique_Characters_String.dir/objects.a @CMakeFiles\Unique_Characters_String.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Unique_Characters_String.dir/objects.a -Wl,--no-whole-archive  -o Unique_Characters_String.exe -Wl,--out-implib,libUnique_Characters_String.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Unique_Characters_String.dir\linklibs.rsp

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks 10 Days of Code/Sort the Strings/C++ Code/main.cpp
+bits/stdc++.h
+-
+
