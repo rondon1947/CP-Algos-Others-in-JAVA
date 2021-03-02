@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks Competitve Programming/Get & Set Bits/main.cpp" "D:/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks Competitve Programming/Get & Set Bits/cmake-build-debug/CMakeFiles/Get___Set_Bits.dir/main.cpp.obj"
+  "D:/Personal Coding Material/All-My-Coding-Problems/Coding Blocks Competitve Programming/Get & Set Bits/main.cpp" "D:/Personal Coding Material/All-My-Coding-Problems/Coding Blocks Competitve Programming/Get & Set Bits/cmake-build-debug/CMakeFiles/Get___Set_Bits.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

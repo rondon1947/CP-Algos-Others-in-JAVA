@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Clear___Update_Bits.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Clear___Update_Bits.dir/objects.a @CMakeFiles\Clear___Update_Bits.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Clear___Update_Bits.dir/objects.a -Wl,--no-whole-archive  -o Clear___Update_Bits.exe -Wl,--out-implib,libClear___Update_Bits.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Clear___Update_Bits.dir\linklibs.rsp
