@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Get___Set_Bits.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Get___Set_Bits.dir/objects.a @CMakeFiles\Get___Set_Bits.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Get___Set_Bits.dir/objects.a -Wl,--no-whole-archive  -o Get___Set_Bits.exe -Wl,--out-implib,libGet___Set_Bits.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Get___Set_Bits.dir\linklibs.rsp

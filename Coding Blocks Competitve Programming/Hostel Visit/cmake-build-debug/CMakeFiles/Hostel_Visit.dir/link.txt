@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Hostel_Visit.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Hostel_Visit.dir/objects.a @CMakeFiles\Hostel_Visit.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Hostel_Visit.dir/objects.a -Wl,--no-whole-archive  -o Hostel_Visit.exe -Wl,--out-implib,libHostel_Visit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Hostel_Visit.dir\linklibs.rsp
