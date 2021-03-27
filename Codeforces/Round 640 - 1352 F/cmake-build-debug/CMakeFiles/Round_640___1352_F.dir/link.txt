@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Round_640___1352_F.dir/main.cpp.o  -o Round_640___1352_F 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Round_A___2020___Plates.dir/main.cpp.o  -o Round_A___2020___Plates 
