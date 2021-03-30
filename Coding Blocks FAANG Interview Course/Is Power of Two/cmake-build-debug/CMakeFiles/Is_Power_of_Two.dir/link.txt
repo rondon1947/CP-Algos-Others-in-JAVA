@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Is_Power_of_Two.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Is_Power_of_Two.dir/objects.a @CMakeFiles\Is_Power_of_Two.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Is_Power_of_Two.dir/objects.a -Wl,--no-whole-archive  -o Is_Power_of_Two.exe -Wl,--out-implib,libIs_Power_of_Two.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Is_Power_of_Two.dir\linklibs.rsp
