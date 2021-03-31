@@ -1,4 +1,4 @@
-# Install script for directory: D:/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks FAANG Interview Course/Unique Characters String
+# Install script for directory: D:/Personal Coding Material/All-My-Coding-Problems/Coding Blocks FAANG Interview Course/Unique Characters String
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Personal Coding Material/CP-Algos-Others-in-JAVA/Coding Blocks FAANG Interview Course/Unique Characters String/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Personal Coding Material/All-My-Coding-Problems/Coding Blocks FAANG Interview Course/Unique Characters String/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
