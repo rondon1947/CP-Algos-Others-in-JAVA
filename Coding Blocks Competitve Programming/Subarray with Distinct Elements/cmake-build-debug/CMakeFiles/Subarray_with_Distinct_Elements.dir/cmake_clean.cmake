@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Subarray_with_Distinct_Elements.dir/main.cpp.obj"
-  "Subarray_with_Distinct_Elements.exe"
-  "Subarray_with_Distinct_Elements.exe.manifest"
+  "CMakeFiles/Subarray_with_Distinct_Elements.dir/main.cpp.o"
+  "Subarray_with_Distinct_Elements"
   "Subarray_with_Distinct_Elements.pdb"
-  "libSubarray_with_Distinct_Elements.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

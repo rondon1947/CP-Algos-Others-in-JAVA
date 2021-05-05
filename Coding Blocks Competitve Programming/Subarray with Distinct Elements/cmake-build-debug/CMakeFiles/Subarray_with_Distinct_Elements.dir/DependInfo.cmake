@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Personal Coding Material/All-My-Coding-Problems/Coding Blocks Competitve Programming/Subarray with Distinct Elements/main.cpp" "D:/Personal Coding Material/All-My-Coding-Problems/Coding Blocks Competitve Programming/Subarray with Distinct Elements/cmake-build-debug/CMakeFiles/Subarray_with_Distinct_Elements.dir/main.cpp.obj"
+  "/media/rohan/Rondon/Personal Coding Material/All-My-Coding-Problems/Coding Blocks Competitve Programming/Subarray with Distinct Elements/main.cpp" "/media/rohan/Rondon/Personal Coding Material/All-My-Coding-Problems/Coding Blocks Competitve Programming/Subarray with Distinct Elements/cmake-build-debug/CMakeFiles/Subarray_with_Distinct_Elements.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

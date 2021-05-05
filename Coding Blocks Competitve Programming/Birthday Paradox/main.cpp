@@ -1,13 +1,13 @@
 #include <bits/stdc++.h>
+
 using namespace std;
+
 int main() {
-    double ans = 1.0;
-    for (int i = 2; i > 0; ++i) {
-        ans = ans * ((366 - i) / 365.0);
-        if (ans <= 0.5) {
-            cout << i;
-            break;
-        }
-    }
+    double p;
+    cin >> p;
+    if (p == 1)
+        cout << "1" << endl;
+    else
+        cout << ceil(sqrt(2 * 365 * log(1 / (1 - p)))) << endl;
     return 0;
 }
