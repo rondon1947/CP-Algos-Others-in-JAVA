@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Round_1354_D.dir/main.cpp.o  -o Round_1354_D 

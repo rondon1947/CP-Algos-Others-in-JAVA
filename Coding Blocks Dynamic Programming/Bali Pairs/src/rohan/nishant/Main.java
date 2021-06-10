@@ -39,7 +39,7 @@ Explanation
 The two ways are {1,4} and {2,3}.
 */
 
-package rohan.nishant;
+// package rohan.nishant;
 
 import java.util.Scanner;
 
@@ -56,6 +56,7 @@ public class Main {
             arr[i][1] = sc.nextLong();
         }
         System.out.println(baliPairs(arr, N));
+        sc.close();
     }
 
     private static long baliPairs(long[][] arr, int N) {

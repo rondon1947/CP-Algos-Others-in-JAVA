@@ -1,3 +1,0 @@
-/media/rohan/Rondon/Personal Coding Material/All-My-Coding-Problems/Codeforces/Round 640 - 1352 D/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/rohan/Rondon/Personal Coding Material/All-My-Coding-Problems/Codeforces/Round 640 - 1352 D/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/media/rohan/Rondon/Personal Coding Material/All-My-Coding-Problems/Codeforces/Round 640 - 1352 D/cmake-build-debug/CMakeFiles/Round_640___1352_D.dir

@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Find_Unique_Number.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Find_Unique_Number.dir/objects.a @CMakeFiles\Find_Unique_Number.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Find_Unique_Number.dir/objects.a -Wl,--no-whole-archive  -o Find_Unique_Number.exe -Wl,--out-implib,libFind_Unique_Number.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Find_Unique_Number.dir\linklibs.rsp

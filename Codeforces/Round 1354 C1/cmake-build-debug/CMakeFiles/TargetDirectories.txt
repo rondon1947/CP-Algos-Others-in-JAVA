@@ -1,3 +1,0 @@
-D:/Personal Coding Material/All-My-Coding-Problems/Codeforces/Round 1354 C1/cmake-build-debug/CMakeFiles/Round_1354_C1.dir
-D:/Personal Coding Material/All-My-Coding-Problems/Codeforces/Round 1354 C1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Personal Coding Material/All-My-Coding-Problems/Codeforces/Round 1354 C1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

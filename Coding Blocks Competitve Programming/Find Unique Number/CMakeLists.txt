@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.17)
-project(Find_Unique_Number)
-
-set(CMAKE_CXX_STANDARD 14)
-
-add_executable(Find_Unique_Number main.cpp)

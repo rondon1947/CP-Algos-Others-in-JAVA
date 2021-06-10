@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Travas_and_Saddas.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Travas_and_Saddas.dir/objects.a @CMakeFiles\Travas_and_Saddas.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Travas_and_Saddas.dir/objects.a -Wl,--no-whole-archive  -o Travas_and_Saddas.exe -Wl,--out-implib,libTravas_and_Saddas.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Travas_and_Saddas.dir\linklibs.rsp
