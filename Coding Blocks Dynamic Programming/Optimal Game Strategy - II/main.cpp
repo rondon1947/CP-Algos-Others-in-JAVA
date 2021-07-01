@@ -1,26 +1,31 @@
 #include <bits/stdc++.h>
-#define ll long long int
 
 using namespace std;
 
-ll oSRec(ll values[], int i, int j, ll sum) {
-    if (j == i + 1)
-        return max(values[i], values[j]);
-    return max((sum - oSRec(values, i + 1, j, sum - values[i])), (sum - oSRec(values, i, j - 1, sum - values[j])));
-}
+#define ll long long int
 
-ll optimalGameStrategy(ll* values, int n) {
-    ll sum = 0;
-    sum = accumulate(values, values + n, sum);
-    return oSRec(values, 0, n - 1, sum);
+ll dp[10001][10001];
+ll optimal_strategy(ll ar[], ll i, ll j) {
+    if (i > j)
+        return 0;
+    if (dp[i][j] != -1)
+        return dp[i][j];
+    int q1 = ar[i] + min(optimal_strategy(ar, i + 2, j), optimal_strategy(ar, i + 1, j - 1));
+    int q2 = ar[j] + min(optimal_strategy(ar, i, j - 2), optimal_strategy(ar, i + 1, j - 1));
+    int q = max(q1, q2);
+    dp[i][j] = q;
+    return dp[i][j];
 }
-
 int main() {
-    int n;
+    ll n;
     cin >> n;
-    ll values[n];
-    for (int i = 0; i < n; ++i)
-        cin >> values[i];
-    cout << optimalGameStrategy(values, n);
+    ll ar[n];
+    for (int i = 0; i < n; i++)
+        cin >> ar[i];
+    for (int i = 0; i <= n; i++)
+        for (int j = 0; j <= n; j++)
+            dp[i][j] = -1;
+    ll ans = optimal_strategy(ar, 0, n - 1);
+    cout << ans;
     return 0;
 }
